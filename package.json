@@ -1,7 +1,8 @@
 {
   "name": "local-time-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
+  "main": "dist/LocalTimeElement.js",
   "module": "dist/LocalTimeElement.js",
   "scripts": {
     "dev": "vite",
@@ -10,8 +11,7 @@
   },
   "types": "dist/LocalTimeElement.d.ts",
   "files": [
-    "dist",
-    "local-time-element.js"
+    "dist"
   ],
   "dependencies": {
     "@lit/reactive-element": "^2.0.3",
@@ -24,6 +24,6 @@
   },
   "exports": {
     ".": "./dist/LocalTimeElement.js",
-    "./local-time-element.js": "./local-time-element.js"
+    "./dist/local-time-element.js": "./dist/local-time-element.js"
   }
 }
