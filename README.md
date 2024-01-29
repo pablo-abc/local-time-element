@@ -35,7 +35,7 @@ By default every value is `undefined`.
 
 ```html
 <script type="module">
-    import 'local-time-element/local-time-element.js';
+    import 'local-time-element/dist/local-time-element.js';
 </script>
 <local-time>
     <time datetime="2021-01-01T00:00Z">Jan 1, 2021</time>
