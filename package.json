@@ -1,0 +1,29 @@
+{
+  "name": "local-time-element",
+  "version": "0.1.0",
+  "type": "module",
+  "module": "dist/LocalTimeElement.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && cp dist/local-time-element.js .",
+    "preview": "vite preview"
+  },
+  "types": "dist/LocalTimeElement.d.ts",
+  "files": [
+    "dist",
+    "local-time-element.js"
+  ],
+  "dependencies": {
+    "@lit/reactive-element": "^2.0.3",
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "exports": {
+    ".": "./dist/LocalTimeElement.js",
+    "./local-time-element.js": "./local-time-element.js"
+  }
+}
