@@ -33,13 +33,16 @@ This package uses `Intl.DateTimeFormat` to format the date in the locale of the 
 
 By default every value is `undefined`.
 
+These properties can also be set as attributes in lowercase. E.g. `timeZoneName` would be `timezonename`.
+
 ```html
 <script type="module">
     import 'local-time-element/dist/local-time-element.js';
 </script>
-<local-time>
+<local-time datestyle="full" timestyle="full">
     <time datetime="2021-01-01T00:00Z">Jan 1, 2021</time>
 </local-time>
 ```
 
-The value within `<time>` will only be overwritten.
+The value within `<time>` will be overwritten. In my time zone this would display:
+`Friday, January 1, 2021 at 1:00:00 AM Central European Standard Time`
