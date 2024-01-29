@@ -6,7 +6,7 @@
   "module": "dist/LocalTimeElement.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && cp dist/local-time-element.js .",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "types": "dist/LocalTimeElement.d.ts",
