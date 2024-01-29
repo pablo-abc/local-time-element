@@ -35,6 +35,8 @@ By default every value is `undefined`.
 
 These properties can also be set as attributes in lowercase. E.g. `timeZoneName` would be `timezonename`.
 
+This element requires a `<time>` element as a direct child of it. It *must* have at least its `datetime` attribute set to an ISO 8601 date. The `<time>` element's content is optional, and _may_ be used as a fallback in case JavaScript is not enabled.
+
 ```html
 <script type="module">
     import 'local-time-element/dist/local-time-element.js';
@@ -44,7 +46,7 @@ These properties can also be set as attributes in lowercase. E.g. `timeZoneName`
 </local-time>
 ```
 
-The value within `<time>` will be overwritten. In my time zone this would display:
+In my time zone this would display:
 `Friday, January 1, 2021 at 1:00:00 AM Central European Standard Time`
 
 ## Custom tag name
