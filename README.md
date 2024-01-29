@@ -46,3 +46,14 @@ These properties can also be set as attributes in lowercase. E.g. `timeZoneName`
 
 The value within `<time>` will be overwritten. In my time zone this would display:
 `Friday, January 1, 2021 at 1:00:00 AM Central European Standard Time`
+
+## Custom tag name
+
+The class can be imported from the root of the package. The root does _not_ define the
+custom element, so it can be used to register a custom tag-name.
+
+```typescript
+import { LocalTimeElement } from 'local-time-element';
+
+customElements.define('my-local-time', LocalTimeElement);
+```
