@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "license": "MIT",
-  "author": "Pablo Berganza <pablo@berganza.dev>",
+  "author": "Pablo Berganza",
   "repository": "github:pablo-abc/local-time-element",
   "homepage": "https://github.com/pablo-abc/local-time-element",
   "types": "dist/LocalTimeElement.d.ts",

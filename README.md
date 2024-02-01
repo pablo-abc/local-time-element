@@ -4,7 +4,7 @@ An element that enhances the `<time>` element in order to display a localised ti
 
 ## Installation
 
-```shell-session
+```sh
 $ pnpm add local-time-element
 
 # OR
